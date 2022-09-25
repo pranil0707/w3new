@@ -30,7 +30,9 @@ public class TC_LoginTestCases extends BaseClass {
 			lp.EnterCred("iampranilpalse@gmail.com");
 			lp.EnterPass("iamJERRY@77");
 			lp.ClickOnLoginbtn();
-			Thread.sleep(3000);
+			Thread.sleep(9000);
+			lp.ClickOnupdatebtn();
+			Thread.sleep(5000);
 	}
 	
 	@Test(priority = 4)

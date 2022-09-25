@@ -20,6 +20,9 @@ public class LoginPageObjectClass {
 	@FindBy(xpath="//span[text()='Log in']")
 	private WebElement LogInBtn;
 	
+	@FindBy(xpath="//button[@class='Button_button__URNp+ Button_primary__d2Jt3 Button_fullwidth__0HLEu']")
+	private WebElement UpdateBtn;
+	
 	public LoginPageObjectClass(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -42,4 +45,11 @@ public class LoginPageObjectClass {
 		Thread.sleep(2000);
 		LogInBtn.click();
 	}	
+	
+	public void ClickOnupdatebtn() throws InterruptedException
+	{
+		Thread.sleep(2000);
+		UpdateBtn.click();
+	}
+	
 }

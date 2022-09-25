@@ -7,9 +7,7 @@
         <methods>
           <include name="setup"/>
           <include name="TearUp"/>
-          <include name="EnterCread"/>
-          <include name="ClickonLoginBtn"/>
-          <include name="ClickOnLogOut"/>
+          <include name="ClickOnLogOut1"/>
         </methods>
       </class> <!-- com.hybrid.TestClass.TC_LoginTestCases -->
     </classes>

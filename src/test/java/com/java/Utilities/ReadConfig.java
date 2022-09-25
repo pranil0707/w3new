@@ -19,6 +19,7 @@ public class ReadConfig {
 	} catch (Exception e) {
 		
 		e.printStackTrace();
+		
 	}	
 	}
 	
@@ -52,5 +53,5 @@ public class ReadConfig {
 
 	}
 	
-
+	
 }
